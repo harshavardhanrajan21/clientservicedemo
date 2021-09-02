@@ -1,7 +1,7 @@
 version: "3.9"
 services:
   h2database:
-    image: client/h2database
+    build: ./h2database
     volumes:
       - .:/data/clientDB
     ports:
@@ -9,6 +9,8 @@ services:
       - 9090:9090
 
   clientapi:
-    image: client/api
+    build: ./client-service
     ports:
       - 8080:8080
+    depends_on: 
+      - h2database
