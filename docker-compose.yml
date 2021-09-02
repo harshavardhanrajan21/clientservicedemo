@@ -1,0 +1,14 @@
+version: "3.9"
+services:
+  h2database:
+    image: client/h2database
+    volumes:
+      - .:/data/clientDB
+    ports:
+      - 8082:8081
+      - 9090:9090
+
+  clientapi:
+    image: client/api
+    ports:
+      - 8080:8080
