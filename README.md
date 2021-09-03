@@ -1,4 +1,5 @@
-#Client Service - RESTFul API 
+Client Service
+------------------
 This is a  **Spring Boot** Application that exposes a REST endpoint which serves **Client details** as a resource.
 The capability consists of two deployable components/microservices.
 
