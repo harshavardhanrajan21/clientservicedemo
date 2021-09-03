@@ -4,7 +4,7 @@ The following are some additional non-functional requirements that may be consid
 
 1) **Performance**-Improve api response times by using caching services deployed as an external service such as Redis.
 2) **Resiliency**-Implement application resiliency patterns to handle latency/failures to backend Services. For example, Timeout, Retries, Circuit Breakers, Exponential Back Off, Gracleful Shutdown
-3) **Scaling**- Consider moving to more scalable database such as a NoSQL database like Mongo DB in order to serve a growing base of Clients.
+3) **Scaling**- Consider moving to more scalable database such as a NoSQL database like Mongo DB or relational DB such as PostgreSQL in order to serve a growing base of Clients.
 4) **Security**- Make the API secure to access by implementing OAuth.
 5) **Scaling**- Consider using an API gateway if there are multiple other APIs services operated by the team.
 6) **Operations**- Logging: Push log streams to log aggregation and monitoring services such as Prometheus.
