@@ -17,7 +17,7 @@ Requirements
 Libraries
 ------------------
 * Spring Boot
-* Spring JPA - Spring-boot-starter-data-jpa
+* Spring JPA - Spring-boot-starter-data-jpa 
 * h2database
 * Junit Juniper
 
