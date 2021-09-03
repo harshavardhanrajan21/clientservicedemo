@@ -16,7 +16,8 @@ Deployment
 ------------------
 * client-service API is Stateless and can be scaled horizontally by deploying multiple containers.
 * h2database persists data to the file system in order retain data between deployments.
-* The **docker-compose.yml** in this parent directory builds and deploys each component as a container
+* The **docker-compose.yml** in this parent directory builds and deploys each component as a container. 
+* Run the ``./gradlew build`` in each component to generate the respective '.jar' package and then run Docker Compose.
 * `` docker-compose up ``
 
 Further Details
