@@ -1,4 +1,5 @@
-#Non-Functional Requirements
+# Non-Functional Requirements
+
 
 The following are some additional non-functional requirements that may be considered for this Client Service API:-
 
@@ -13,9 +14,10 @@ The following are some additional non-functional requirements that may be consid
 9) **Twelve-Factor APP** Improve the overall APP build & deployment by implementing the principles of Twelve Factor App
 
 
+____________________________
 
+# The Twelve-Factor APP Implementation
 
-#The Twelve-Factor APP Implementation
 1) **Codebase:** Implemented using Git Hub 
 2) **Dependencies:** Application dependencies managed using Gradle
 3) **Config:**: Configuration maintained in application.properties and injected in DockerCompose per environment.
