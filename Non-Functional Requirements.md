@@ -1,4 +1,4 @@
-#Non-Functional Requirements
+# Non-Functional Requirements
 __________________________________________
 
 The following are some additional non-functional requirements that may be considered for this Client Service API:-
@@ -16,7 +16,7 @@ The following are some additional non-functional requirements that may be consid
 
 
 
-#The Twelve-Factor APP Implementation
+# The Twelve-Factor APP Implementation
 __________________________________________
 1) **Codebase:** Implemented using Git Hub 
 2) **Dependencies:** Application dependencies managed using Gradle
