@@ -1,4 +1,5 @@
-#H2 Database - In-memory/File Based storage
+H2 Database - In-memory/File Based storage
+------------------
 This is a dedicated **H2 Database** Application that serves the Client Microservice API.
 
 Endpoint
